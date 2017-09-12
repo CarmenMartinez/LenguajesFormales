@@ -23,12 +23,9 @@ bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, 
 				if((unsigned int)(cardenalidad[i]+principio) == w.length()){
 					return pertenece;
 				}
-				if(buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w)){
-					return buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w);
-				}
+				return buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w);
 			}
 		}
-
 	return pertenece;
 }
 
