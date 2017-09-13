@@ -89,7 +89,6 @@ int main(){
 	getline(cin, w);
 
 
-
 	char * l_separado = new char[l.length()+1];
 	strcpy (l_separado, l.c_str());
 	l_separado = strtok(l_separado, ",");
@@ -98,7 +97,6 @@ int main(){
 	int * cardenalidad = new int[l.length() + 1];
 
 
-	//separa lenguajes
 	int posicion = 0;
 	while(l_separado != NULL){
 		lenguaje[posicion] = l_separado;
