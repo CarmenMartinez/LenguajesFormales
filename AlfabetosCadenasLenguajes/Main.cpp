@@ -1,8 +1,14 @@
 /*
  * Main.cpp
+ *	Práctica 1
+ *  Fecha de creación: 07/09/2017
+ *  Integrantes:
+ *  Mariana Sierra Vega 702782
+ *  Julián De Jesús López López
+ *  María del Carmen Martínez Nuño 703358
+ *  Pablo Menchaca Noriega 708157
  *
- *  Created on: 07/09/2017
- *      Author: Mariana
+ *
  */
 
 #include <stdio.h>
@@ -17,8 +23,8 @@ bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, 
 	bool pertenece = false;
 	for(int i = 0; i < longitud; i++){
 			if(lenguaje[i] == w.substr(principio, cardenalidad[i])){
-				cout<<lenguaje[i]<<" = "<<w.substr(principio, cardenalidad[i])<<endl;
-				cout<<"Si pertenece "<<lenguaje[i]<<" en la posicion "<< principio << ","<<cardenalidad[i]<<endl;
+				//cout<<lenguaje[i]<<" = "<<w.substr(principio, cardenalidad[i])<<endl;
+				//cout<<"Si pertenece "<<lenguaje[i]<<" en la posicion "<< principio << ","<<cardenalidad[i]<<endl;
 				pertenece = true;
 				if((unsigned int)(cardenalidad[i]+principio) == w.length()){
 					return pertenece;
@@ -26,6 +32,9 @@ bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, 
 				if(buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w)){
 					return buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w);
 				}
+			}
+			else if(i == (longitud - 1)){
+				return false;
 			}
 		}
 
@@ -36,9 +45,21 @@ int main(){
 	string sigma, l, w;
 
 	//obtener las entradas
-
+	cout<<"Ingresa el alfabeto separado por espacios: "<<endl<<"Ejemplo 'a b c'"<<endl;
+	cout<<"\u03A3:";
 	getline(cin, sigma);
-	getline(cin, l);
+	bool flag;
+	do{
+		flag = false;
+		cout<<"Ingresa el lenguaje separado por comas"<<endl<<"Ejemplo 'ab,aa,bb'"<<endl<<"L = ";
+		getline(cin, l);
+		for(int i = 0; i < l.length(); i++){
+			if(sigma.find(l[i]) == string::npos && l[i] != ','){
+				flag = true;
+			}
+		}
+	}while(flag);
+	cout<<"Ingresa la palabra:"<<endl<<"w = ";
 	getline(cin, w);
 
 	//revisar si lenguaje y cadena pertenece al alfabeto
@@ -65,28 +86,7 @@ int main(){
 		posicion++;
 	}
 	int longitud = posicion;
-	//DICCIONARIO GUARDA POR POSICIONES EMPEZANDO EN 1
-	/*int posicion = 1;
-	while(l_separado != NULL){
-		//printf("%s\n", l_separado);
-		lenguaje[posicion][l_separado] = strlen(l_separado);
-		lenguaje[l_separado] = strlen(l_separado);
-		//printf("[%d][%s] = %d\n", posicion, l_separado, strlen(l_separado));
-		//posicion++;
-		l_separado = strtok(NULL, ",");
-	}
 
-	//�rbol
-	// recorrer el diccionario
-	map<int, map<string, int > >const_iterator ;
-	map<string, int>const_iterator;
-	for(const_iterator it = lenguaje.begin(); const_iterator it != lenguaje.end(); const_iterator it++){
-		//tomamos la longitud de la cadena
-		//comparamos con un substring en esa posici�n
-		//si es igual continuamos con la siguiente posici�n del diccionario y la siguiene subcadena
-		//si no continuamos con la siguiente cadena del diccionario
-		//si no la encuentra "la cadena no pertenece"
-	}*/
 	cout<<longitud<<endl;
 	bool pertenece = buscar(0, lenguaje, cardenalidad, longitud, w);
 	if(pertenece)
@@ -94,12 +94,6 @@ int main(){
 	else
 		cout<<"No pertenece"<<endl;
 
-	/*int principio = 0;
-	for(int i = 0; i < longitud; i++){
-		if(lenguaje[i] == w.substr(principio, cardenalidad[i])){
-			cout<<"Si pertenece "<<lenguaje[i]<<" en la posicion "<< principio << ","<<cardenalidad[i]<<endl;
-		}
-	}*/
 	return 0;
 }
 

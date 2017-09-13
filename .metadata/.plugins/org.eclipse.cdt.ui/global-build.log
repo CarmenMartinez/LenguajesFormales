@@ -3,3 +3,71 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
 Info: Nothing to build for AlfabetosCadenasLenguajes
+12:53:47 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+clang: error: no such file or directory: '../Main.cpp'
+clang: error: no input files
+12:53:54 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+clang: error: no such file or directory: '../Main.cpp'
+clang: error: no input files
+12:53:57 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+clang: error: no such file or directory: '../Main.cpp'
+clang: error: no input files
+12:54:06 **** Clean-only build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf Main.d Main.o AlfabetosCadenasLenguajes.exe 
+12:54:10 **** Rebuild of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+13:03:32 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+13:11:07 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+13:15:15 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+13:33:49 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+Info: Nothing to build for AlfabetosCadenasLenguajes
+13:41:07 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+13:42:58 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+13:57:38 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
