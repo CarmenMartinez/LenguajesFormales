@@ -8,6 +8,56 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: Java EE Moves to the Eclipse Foundation</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/5XQwoKPUckg/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/5XQwoKPUckg/</link>
+	<description>Oracle announced today that they, along with IBM and Red Hat, will be moving Java EE to the Eclipse Foundation.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/5XQwoKPUckg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 13 Sep 2017 07:54:10 +0000</pubDate>
+</item>
+<item>
+	<title>Neil Bartlett: Bndtools and Maven: A Brave New World</title>
+	<guid isPermaLink="false">http://njbartlett.github.com/2017/09/13/bndtools-and-maven</guid>
+	<link>http://njbartlett.name/2017/09/13/bndtools-and-maven.html</link>
+	<description>&lt;p&gt;At this year’s OSGi Community Event – co-hosted with EclipseCon Europe 2017 – I will present a new tutorial titled &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/bndtools-and-maven-brave-new-world&quot;&gt;Bndtools and Maven: A Brave New World&lt;/a&gt;. My friend and &lt;a href=&quot;https://paremus.com&quot;&gt;Paremus&lt;/a&gt; colleague &lt;a href=&quot;https://blogs.paremus.com/author/tim-ward/&quot;&gt;Tim Ward&lt;/a&gt; will co-present and will provide support during the exercises.&lt;/p&gt;
+
+&lt;p&gt;Bndtools has long provided the premier development experience for writing OSGi bundles and applications. However there was a significant gap: until recently it has been very difficult to use Maven to build Bndtools projects. This was partially because of legacy issues (after starting with ANT as our standard build tool, we eventually migrated to Gradle). Partially it was because Maven is far more prescriptive in terms of the structure and lifecycle of a project, and it took a long time to find a way to fit our models together. These problems meant that Bndtools was simply unusable for a large number of developers, in particular those working for organisations that have standardised on Maven – and also of course those developers who simply prefer Maven!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;These problems are now essentially solved and, from Bndtools version 3.4, Maven is a fully supported build environment.&lt;/strong&gt; Gradle also remains fully supported.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we will walk through all of the day-to-day development tasks in the new Bndtools/Maven toolchain. These include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Starting a new project from scratch;&lt;/li&gt;
+  &lt;li&gt;Adding bundle modules to the project;&lt;/li&gt;
+  &lt;li&gt;Managing library dependencies;&lt;/li&gt;
+  &lt;li&gt;Integration testing (i.e. in-container testing);&lt;/li&gt;
+  &lt;li&gt;Running bundles and tests from the IDE, and the rapid code/run cycle enabled by Bndtools;&lt;/li&gt;
+  &lt;li&gt;Indexing, resolving and assembling applications for deployment;&lt;/li&gt;
+  &lt;li&gt;Managing bundle and package versions;&lt;/li&gt;
+  &lt;li&gt;Configuring a Continuous Integration build.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The following Maven plugins will be covered:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bnd-maven-plugin&lt;/code&gt;: the core plugin that generates OSGi bundle JARs;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bnd-testing-maven-plugin&lt;/code&gt;: executes OSGi in-container tests;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bnd-indexer-maven-plugin&lt;/code&gt;: indexes OSGi bundles and dependencies for assembly and/or runtime resolving;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bnd-export-maven-plugin&lt;/code&gt;: assembles a standalone OSGi application from its minimal bundles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We do hope that you will attend this tutorial armed with lots of questions! Prerequisites are Bndtools 3.5 (which will have been released before the conference), JDK 8 and Maven 3. Also make sure you sign up to attend the tutorial on the EclipseCon website, and of course you also need a ticket to the main conference.&lt;/p&gt;</description>
+	<pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mike Milinkovich: Java EE Moves to the Eclipse Foundation</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1337</guid>
+	<link>https://mmilinkov.wordpress.com/2017/09/12/java-ee-moves-to-the-eclipse-foundation/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://blogs.oracle.com/theaquarium/opening-up-ee-update&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Oracle announced today&lt;/a&gt; that they, along with IBM and &lt;a href=&quot;http://middlewareblog.redhat.com/2017/09/12/java-ee-moves-to-eclipse/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Red Hat&lt;/a&gt;, will be moving Java EE to the Eclipse Foundation. I would like to welcome everyone involved to our community. We look forward to working with all of the participants in the Java EE ecosystem as it moves to a more open and collaborative development model. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Java EE has been at the center of enterprise computing for almost twenty years. As enterprises move to a more cloud-centric model, it is clear that Java EE requires a more rapid pace of innovation. The open source model has been shown time and again to be the most successful way to innovate in today’s world. The Eclipse Foundation is focused on enabling open collaboration among individuals, small companies, enterprises, and the largest vendors. The &lt;a href=&quot;http://microprofile.io/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse MicroProfile&lt;/a&gt; project is, we believe, an excellent example of the developer community led style of collaboration we support. We look forward to supporting the Java EE community as it creates the platform for the next twenty years of business applications.&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://mmilinkov.wordpress.com/category/foundation/&quot;&gt;Foundation&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/mmilinkov.wordpress.com/1337/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/mmilinkov.wordpress.com/1337/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=mmilinkov.wordpress.com&amp;amp;blog=19461799&amp;amp;post=1337&amp;amp;subd=mmilinkov&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 12 Sep 2017 20:21:54 +0000</pubDate>
+</item>
+<item>
 	<title>Chris Aniszczyk: Launching TODO Group Guides</title>
 	<guid isPermaLink="false">http://aniszczyk.org/?p=4145</guid>
 	<link>http://aniszczyk.org/2017/09/11/launching-todo-group-guides/</link>
@@ -266,30 +316,6 @@
 	<link>https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-jan-k%C3%B6hnlein-typefox</link>
 	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;EclipseCon Europe connects the Eclipse community in the best possible way. You will hear great talks on a wide range of topics, talk to smart and friendly people, enjoy great food and just have a very good time.  ...This year’s EclipseCon gives us a great opportunity to share our knowledge how to &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/integrating-xtext-and-sirius-strategies-and-pitfalls&quot;&gt;integrate Xtext with Sirius&lt;/a&gt;. We will also present three new frameworks: &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/eclipse-xpect-easy-specification-review-and-testing-xtext-languages&quot;&gt;Xpect&lt;/a&gt;, which makes testing Xtext languages easy, &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/running-theia-eclipse-che&quot;&gt;Theia&lt;/a&gt;, that allows you to build tools that run both in a browser or as a rich-client, and &lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/sprotty-graphical-views-web-applications&quot;&gt;sprotty&lt;/a&gt;, a graphical framework for web-based apps which extends the ideas of the LSP to graphics....&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/sponsor-testimonial-jan-k%C3%B6hnlein-typefox&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Jan%20Koehnlein.jpg?itok=3JfC-_eH&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Tue, 29 Aug 2017 09:45:29 +0000</pubDate>
-</item>
-<item>
-	<title>Tom Schindl: Proper OSGi access restriction warnings for e(fx)clipse maven projects</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5095</guid>
-	<link>https://tomsondev.bestsolution.at/2017/08/28/proper-osgi-access-restriction-warnings-for-efxclipse-maven-projects/</link>
-	<description>&lt;p&gt;In the last few days I worked on the last required feature to abandon PDE and use maven (with the bnd-maven-plugin) and m2e.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://tomsondev.bestsolution.at/2017/08/28/proper-osgi-access-restriction-warnings-for-efxclipse-maven-projects/screen-access/&quot; rel=&quot;attachment wp-att-5096&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-5096&quot; height=&quot;398&quot; src=&quot;https://tomsondev.files.wordpress.com/2017/08/screen-access.png?w=640&amp;amp;h=398&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Does anyone reading my blog know if IntelliJ and Netbeans also have a feature like this?&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/tomsondev.wordpress.com/5095/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/tomsondev.wordpress.com/5095/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=tomsondev.bestsolution.at&amp;amp;blog=7995503&amp;amp;post=5095&amp;amp;subd=tomsondev&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 28 Aug 2017 18:29:51 +0000</pubDate>
-</item>
-<item>
-	<title>Geniutec: Working with Java 9 in Eclipse</title>
-	<guid isPermaLink="false">https://www.genuitec.com/?p=534701</guid>
-	<link>https://www.genuitec.com/working-java-9-eclipse/</link>
-	<description>&lt;p&gt;The Java 9 general availability release is just under a month away, but the builds available right now are already feature complete. If you can’t wait to try some Java 9 capabilities, you can start developing with Java 9 in Eclipse, right now!Installing the Java 9 SupportYou need an Oxygen based install of Eclipse – ensure […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/working-java-9-eclipse/&quot; rel=&quot;nofollow&quot;&gt;Working with Java 9 in Eclipse&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Thu, 24 Aug 2017 14:19:50 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse Newsletter - Exciting New Eclipse Projects</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/581aR0tQGTM/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/581aR0tQGTM/</link>
-	<description>The latest newsletter is all about new and exciting projects!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/581aR0tQGTM&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 22 Aug 2017 14:00:00 +0000</pubDate>
 </item>
 
 </channel>

@@ -6,7 +6,6 @@
  *  Mariana Sierra Vega 702782
  *  Julián De Jesús López López
  *  María del Carmen Martínez Nuño 703358
- *  Pablo Menchaca Noriega 708157
  *
  *
  */
@@ -15,16 +14,31 @@
 #include <cstdlib>
 #include <string.h>
 #include <iostream>
-#include <map>
 
 using namespace std;
 
+/*
+ * Esta es una función recursiva, la cual recibe:
+ * int     principio 		->	el inicio de la cadena o subcadena para comparar
+ * string* lenguaje 		->	es un apuntador al inicio del lenguaje, es decir a cada conjunto de símbolos del alfabeto,
+ * 					 			el cual está almacenado en un arreglo
+ * int*    cardinalidad		->	es un apuntador a la cardinalidad de cada lenguaje del conjunto.
+ * int	   longitud			->	es un entero que nos dice la cantidad de lenguajes que sxisten
+ * string  w				->	es la palabra a validar
+ *
+ * retorna:
+ *
+ * pertenece:	Valor verdadero o falso que indica si la palabra w pertenece a los lenguajes de sigma
+ *
+ *
+ * Esta función recorre todos los lenguajes de nuestro conjunto y las compara por partes con la palabra w
+ * de ser así, pasamos a la siguiente parte de la palabra como una subcadena, comparando nuevamente con cada
+ * lenguaje del conjunto, en caso de ser la última parte de la palabra se termina la función y devuelve el resiltado final.
+ */
 bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, string w){
 	bool pertenece = false;
 	for(int i = 0; i < longitud; i++){
 			if(lenguaje[i] == w.substr(principio, cardenalidad[i])){
-				//cout<<lenguaje[i]<<" = "<<w.substr(principio, cardenalidad[i])<<endl;
-				//cout<<"Si pertenece "<<lenguaje[i]<<" en la posicion "<< principio << ","<<cardenalidad[i]<<endl;
 				pertenece = true;
 				if((unsigned int)(cardenalidad[i]+principio) == w.length()){
 					return pertenece;
@@ -40,7 +54,19 @@ bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, 
 
 	return pertenece;
 }
-
+/*
+ * main() función principal del programa
+ * está encargada de leer el alfabeto (sigma), leer los lenguajes del conjunto (l), leer la palabra a validar.
+ * El lenguaje se valida para que tenga todos los elementos del alfabeto. Hasta no estar de manera corracta, se seguirá pidiendo.
+ *
+ * Una vez teniendo esos tres elementos se dividen en arreglos:
+ * sigma -> se divide por espacios tomando cada símbolo como una posición en el arreglo.
+ * l	 -> se divide por comas, y cada lenguaje se guarda en un arreglo
+ * 			se crea un nuevo arreglo relacionado con l, donde se guarda la cardinalidad de cada lenguaje
+ *
+ *
+ *El final de esta función imprime si la cadena a validar pertenece o no al conjunto sigma*
+ * */
 int main(){
 	string sigma, l, w;
 
@@ -62,12 +88,7 @@ int main(){
 	cout<<"Ingresa la palabra:"<<endl<<"w = ";
 	getline(cin, w);
 
-	//revisar si lenguaje y cadena pertenece al alfabeto
-	//checar permutaciones de la cadena
 
-	//crear dictionary
-	//map<int, map<string, int> > lenguaje;
-	//map<string, int> lenguaje;
 
 	char * l_separado = new char[l.length()+1];
 	strcpy (l_separado, l.c_str());
@@ -77,18 +98,20 @@ int main(){
 	int * cardenalidad = new int[l.length() + 1];
 
 
+	//separa lenguajes
 	int posicion = 0;
 	while(l_separado != NULL){
 		lenguaje[posicion] = l_separado;
 		cardenalidad[posicion] = strlen(l_separado);
 		l_separado = strtok(NULL, ",");
-		cout<<lenguaje[posicion]<<" "<<cardenalidad[posicion]<<endl;
 		posicion++;
 	}
 	int longitud = posicion;
 
-	cout<<longitud<<endl;
+	//Llamada a la función recursiva
 	bool pertenece = buscar(0, lenguaje, cardenalidad, longitud, w);
+
+	//analiza respuesta.
 	if(pertenece)
 		cout<<"Pertenece"<<endl;
 	else

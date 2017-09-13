@@ -6,6 +6,85 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>EntireJ - Reports</title>
+    <link>http://marketplace.eclipse.org/content/entirej-reports</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/EJ_BIG.png&quot; width=&quot;79&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-04-28 04:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-09-13 11:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CRESOFT%20AG%22&quot;&gt;CRESOFT AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pharrison6yq/listings&quot; title=&quot;Paul Harrison&quot;&gt;Paul Harrison&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;EntireJ Reports is a Rapid Application Development (RAD) environment for building highly scalable, fast and powerful reports.&lt;/p&gt;
+&lt;p&gt;EntireJ provides a GUI Development environment and runtime libraries that utilise the best report engine to generate the desired report. Current report engines are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Jasper Reports&lt;/li&gt;
+&lt;li&gt;
+		POI&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;EntireJ will choose the correct engine for the report, for example, POI is used when generating a large data intensive excel report, as it is much faster and uses allot less memory.&lt;/p&gt;
+&lt;p&gt;Developers can concentrate ob building their reports without requiring the detailed and expert level of knowledge that is required for generating such Jasper and POI reports.&lt;/p&gt;
+&lt;p&gt;Additional Features Include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Simple Report Runner&lt;/li&gt;
+&lt;li&gt;
+		Row Level Dynamic Styling&lt;/li&gt;
+&lt;li&gt;
+		Action Processors to add Business Logic&lt;/li&gt;
+&lt;li&gt;
+		Optimised Report Engines&lt;/li&gt;
+&lt;li&gt;
+		GUI Editor for Report Creation&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 28 Apr 2017 08:59:30 +0000</pubDate>
+ <dc:creator>pharrison6yq</dc:creator>
+ <guid isPermaLink="false">3418028 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/entirej-reports#comments</comments>
+  </item>
+  <item>
+    <title>EntireJ</title>
+    <link>http://marketplace.eclipse.org/content/entirej</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ForEclipse.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2013-05-21 13:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-09-13 11:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CRESOFT%20AG%22&quot;&gt;CRESOFT AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pharrison6yq/listings&quot; title=&quot;Paul Harrison&quot;&gt;Paul Harrison&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;EntireJ is a Rapid Application Development (RAD) environment for building highly scalable, enterprise-class applications in &lt;strong&gt;RAP/JavaFX&lt;/strong&gt;. EntireJ uses powerful declarative features so that business developers can instantly create fully functional applications using any type of data persistency. EntireJ also provides an EntireJ Reports tool that allows you to create not only EJ Forms but EJ Reports. EntireJ provides a wrapper around the Jasper reporting tool providing a far easier and more EntireJ friendly development environment One of the main design decisions behind EntireJ was to build a development tool that gives developers the possibility to create applications without having to learn the complex programming languages used by the various client frameworks. With the help of EntireJ a developer with little java know-how can now create the following without having to learn these technologies.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Web applications using &lt;strong&gt;RAP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		Desktop applications using &lt;strong&gt;RCP&lt;/strong&gt; and &lt;strong&gt;JavaFX&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+		EntireJ Reports using &lt;strong&gt;Jasper reports&lt;/strong&gt; and &lt;strong&gt;POI&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Developers can concentrate more on the business requirements rather than the technical requirements of the application, which will result in enormous savings in terms of time and money.&lt;/p&gt;
+&lt;p&gt;If you are looking for a tool that will enable you to move from an Oracle Forms environment to Java then EntireJ is perfect for you! EntireJ offers everything that you are used to in Oracle Forms and more. Download, install and contact our Support for all the information you require in moving from Oracle Forms to Java. For more information on EntireJ visit our &lt;a href=&quot;http://www.entirej.com&quot; rel=&quot;nofollow&quot;&gt;website&lt;/a&gt; or for information on installing and using EntireJ read through the helpful tutorials and reference guides: &lt;a href=&quot;http://docs.entirej.com:8090&quot; rel=&quot;nofollow&quot;&gt;EntireJ Documentation Website&lt;/a&gt;&lt;strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 21 May 2013 17:19:27 +0000</pubDate>
+ <dc:creator>pharrison6yq</dc:creator>
+ <guid isPermaLink="false">867720 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/entirej#comments</comments>
+  </item>
+  <item>
+    <title>Enhanced Class Decompiler</title>
+    <link>http://marketplace.eclipse.org/content/enhanced-class-decompiler</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/components.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-09-09 16:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-09-13 08:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pbihler/listings&quot; title=&quot;Pascal Bihler&quot;&gt;Pascal Bihler&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Enhanced Class Decompiler integrates JD, Jad, FernFlower, CFR, Procyon seamlessly with Eclipse and allows Java developers to debug class files without source code directly. It also integrates with the eclipse class editor, m2e plugin, supports Javadoc, reference search, library source attaching, byte code view and the syntax of JDK8 lambda expression.&lt;/p&gt;
+&lt;p&gt;It is based on the popular (delisted) &quot;Eclipse Class Decompiler&quot; Plugin, but members of the open-source community enhanced it by removing all code which might compromise your privacy or security (i.e. everything discussed in &lt;a href=&quot;https://0x10f8.wordpress.com/2017/08/07/reverse-engineering-an-eclipse-plugin&quot; rel=&quot;nofollow&quot;&gt;https://0x10f8.wordpress.com/2017/08/07/reverse-engineering-an-eclipse-p...&lt;/a&gt; and everything else which seemed suspicious) to bring back the great core plugin functionality to all Eclipse users.&lt;/p&gt;
+&lt;p&gt;Github Project Page: &lt;a href=&quot;https://ecd-plugin.github.io&quot; rel=&quot;nofollow&quot;&gt;https://ecd-plugin.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Code-)Reviews and pull requests welcome!&lt;/em&gt;&lt;br /&gt;&lt;em&gt;All (!) source is in this Git repository: &lt;em&gt;&lt;em&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ecd-plugin/ecd&quot; rel=&quot;nofollow&quot;&gt;https://github.com/ecd-plugin/ecd&lt;/a&gt;&lt;/em&gt;&lt;/em&gt;&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 09 Sep 2017 20:01:02 +0000</pubDate>
+ <dc:creator>pbihler</dc:creator>
+ <guid isPermaLink="false">3644319 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/enhanced-class-decompiler#comments</comments>
+  </item>
+  <item>
+    <title>Paraformance</title>
+    <link>http://marketplace.eclipse.org/content/paraformance</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ParaFormanceTM.jpg&quot; width=&quot;89&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-09-06 08:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-09-13 08:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22University%20of%20St.%20Andrews%22&quot;&gt;University of St. Andrews&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ddeyxuq/listings&quot; title=&quot;Dibayendu Dey&quot;&gt;Dibayendu Dey&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;ParaFormance is a software tool-chain that allows software developers to quickly and easily write multi-core software. ParaFormance enables software developers to find the sources of parallelism within their code, automatically (through user-controlled guidance) inserting the parallel business logic, and checking that the parallelised code is thread-safe.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		ParaFormance works with C and C++&lt;/li&gt;
+&lt;li&gt;
+		ParaFormance works on source code and is compiler independent&lt;/li&gt;
+&lt;li&gt;
+		ParaFormance checks code for correctness - automatically - and highlights potential issues&lt;/li&gt;
+&lt;li&gt;
+		ParaFormance detects candidates for parallelization within sequential code using extremely sophisticated pattern analysis and recognition&lt;/li&gt;
+&lt;li&gt;
+		ParaFormance suggests code repairs and fixes for parallelism, enabling them to be implemented automatically or with developer intervention&lt;/li&gt;
+&lt;li&gt;
+		ParaFormance enables roll-back of any changes to code&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 06 Sep 2017 12:14:07 +0000</pubDate>
+ <dc:creator>ddeyxuq</dc:creator>
+ <guid isPermaLink="false">3638821 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/paraformance#comments</comments>
+  </item>
+  <item>
     <title>Eclipse Code Recommenders</title>
     <link>http://marketplace.eclipse.org/content/eclipse-code-recommenders</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_19.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2009-03-11 10:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-09-12 10:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22eclipse.org%22&quot;&gt;eclipse.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mbruch/listings&quot; title=&quot;Marcel Bruch&quot;&gt;Marcel Bruch&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;strong&gt;Eclipse Code Recommenders&lt;/strong&gt; assists Java developers in learning how to use and extend new APIs by leveraging the information hidden in the source code of existing applications and integrating the gained knowledge back into our day-to-day development tool: Eclipse. &lt;/p&gt;
@@ -122,92 +201,6 @@
  <dc:creator>sseelmann</dc:creator>
  <guid isPermaLink="false">319 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/apache-directory-studio#comments</comments>
-  </item>
-  <item>
-    <title>JUnit 5 Support (BETA) for Oxygen</title>
-    <link>http://marketplace.eclipse.org/content/junit-5-support-beta-oxygen</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-10 07:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-08 11:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20Project%22&quot;&gt;Eclipse Project&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ngupta/listings&quot; title=&quot;Noopur Gupta&quot;&gt;Noopur Gupta&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JUnit 5 is the next generation of JUnit and Eclipse is embracing it by integrating it in its tooling support.&lt;/p&gt;
-&lt;p&gt;To try out JUnit 5 support in Eclipse, you can follow any of these:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Download the latest U-build available here (built on Eclipse 4.7 M-build) and use it as it is: &lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/YIndex.php&quot; rel=&quot;nofollow&quot;&gt;http://download.eclipse.org/eclipse/downloads/YIndex.php&lt;/a&gt;.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;li&gt;
-		Update your Eclipse 4.7 build using this update site: &lt;a href=&quot;http://download.eclipse.org/eclipse/updates/4.7-U-builds&quot; rel=&quot;nofollow&quot;&gt;http://download.eclipse.org/eclipse/updates/4.7-U-builds&lt;/a&gt;.
-&lt;p&gt;		In Eclipse, go to Help &amp;gt; Install New Software... and uncheck &quot;Group items by category&quot;. Select &quot;Eclipse SDK&quot; from the list of items and proceed with the installation.&lt;br /&gt;
-		 &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;
-		Update your Eclipse 4.7 build for committers (&lt;a href=&quot;https://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers/oxygenr&quot; rel=&quot;nofollow&quot;&gt;https://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committer...&lt;/a&gt;) using Eclipse Marketplace entry (currently, needs some additional steps):
-&lt;ol&gt;&lt;li&gt;
-				Drag and drop the Install button on this web page to your running Eclipse workspace. This will open the Eclipse Marketplace dialog.&lt;/li&gt;
-&lt;li&gt;
-				Click the link &quot;One solution selected&quot; at the bottom.&lt;/li&gt;
-&lt;li&gt;
-				In the JUnit 5 support entry, press &quot;Update Pending&quot; button.&lt;/li&gt;
-&lt;li&gt;
-				Press the same button again, now named &quot;Update&quot;. Ignore the progress bar message at the bottom.&lt;/li&gt;
-&lt;li&gt;
-				On the next page which comes up, make sure &quot;Update my installation...&quot; is selected and press &quot;Confirm&quot;.&lt;/li&gt;
-&lt;li&gt;
-				Accept the license and proceed with the installation.&lt;br /&gt;
-				 &lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;
-		JUnit 5 support is also included in Eclipse Photon (4.8) builds. Try it out with the latest Integration build available here: &lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/index.html&quot; rel=&quot;nofollow&quot;&gt;http://download.eclipse.org/eclipse/downloads/index.html&lt;/a&gt;.&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Note: If you are using the update site or the marketplace entry with an Eclipse 4.7 M-build, make sure that the latest available U-build on &lt;a href=&quot;http://download.eclipse.org/eclipse/downloads/YIndex.php&quot; rel=&quot;nofollow&quot;&gt;http://download.eclipse.org/eclipse/downloads/YIndex.php&lt;/a&gt; (fetched by the update site and marketplace entry) was built after your M-build.&lt;/p&gt;
-&lt;p&gt;Resources:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		JUnit 5 project: &lt;a href=&quot;http://junit.org/junit5&quot; rel=&quot;nofollow&quot;&gt;http://junit.org/junit5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		User guide: &lt;a href=&quot;http://junit.org/junit5/docs/current/user-guide&quot; rel=&quot;nofollow&quot;&gt;http://junit.org/junit5/docs/current/user-guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 10 Aug 2017 11:25:34 +0000</pubDate>
- <dc:creator>ngupta</dc:creator>
- <guid isPermaLink="false">3593893 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/junit-5-support-beta-oxygen#comments</comments>
-  </item>
-  <item>
-    <title>ABAP Continuous Integration</title>
-    <link>http://marketplace.eclipse.org/content/abap-continuous-integration</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/abapCI_logo.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-31 17:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-09-08 01:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Andreas%20Gautsch%22&quot;&gt;Andreas Gautsch&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/agautsch/listings&quot; title=&quot;Andreas Gautsch&quot;&gt;Andreas Gautsch&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;abapCI is an additional plugin for ABAP in Eclipse which supports you with Continuous Integration features. &lt;/p&gt;
-&lt;p&gt;Further details can be found at: &lt;a href=&quot;https://github.com/andau/abapCI/blob/master/README.md&quot; rel=&quot;nofollow&quot;&gt;https://github.com/andau/abapCI/blob/master/README.md&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 31 Aug 2017 21:35:06 +0000</pubDate>
- <dc:creator>agautsch</dc:creator>
- <guid isPermaLink="false">3629791 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/abap-continuous-integration#comments</comments>
-  </item>
-  <item>
-    <title>Capella</title>
-    <link>http://marketplace.eclipse.org/content/capella</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_capella_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-07 05:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-07 08:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Thales%22&quot;&gt;Thales&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingnameuel/listings&quot; title=&quot;Obeo Team&quot;&gt;Obeo Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Capella is a Comprehensive, extensible and field-proven MBSE solution to successfully design systems architecture.&lt;/p&gt;
-&lt;p&gt;It provides provides methodological guidance, intuitive model editing, and viewing capabilities for Systems, Software and Hardware Architects.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Model-Based Engineering Method: Capella relies on Arcadia a field-proven model-based methodology that covers each engineering phase&lt;/li&gt;
-&lt;li&gt;
-		Customizable, Open and Scalable Tool: Capella can be adaptable to your own engineering approach and integrated with your tools&lt;/li&gt;
-&lt;li&gt;
-		Successfully Deployed Solution: Capella is already used on concrete projects in numerous industrial sectors (aerospace, energy, transportation…)&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 07 Sep 2017 09:01:41 +0000</pubDate>
- <dc:creator>omisingnameuel</dc:creator>
- <guid isPermaLink="false">3640472 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/capella#comments</comments>
-  </item>
-  <item>
-    <title>Team for Capella</title>
-    <link>http://marketplace.eclipse.org/content/team-capella</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_capella.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-07 04:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-07 08:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Obeo%22&quot;&gt;Obeo&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingnameuel/listings&quot; title=&quot;Obeo Team&quot;&gt;Obeo Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This add-on allows users to collaborate on remotely shared models and representations&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		All changes on the models and representations are automatically propagated across all users’ views.&lt;/li&gt;
-&lt;li&gt;
-		Only the necessary objects are automatically locked and released. On-demand locks can also be created.&lt;/li&gt;
-&lt;li&gt;
-		Data is stored in a shared server hosting the whole models with their representations.&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 07 Sep 2017 08:47:47 +0000</pubDate>
- <dc:creator>omisingnameuel</dc:creator>
- <guid isPermaLink="false">3640428 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/team-capella#comments</comments>
   </item>
   </channel>
 </rss>
