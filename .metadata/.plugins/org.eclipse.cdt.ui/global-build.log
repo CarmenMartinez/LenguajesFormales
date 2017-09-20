@@ -1,88 +1,1028 @@
-12:17:03 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+14:09:38 **** Rebuild of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+14:16:13 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+19:05:18 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+19:05:51 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+19:06:28 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+20:43:37 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+20:47:01 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:14: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [10]'
+                cin.ignore("diagonaln");
+                           ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+../Main.cpp:119:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+20:47:10 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:14: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [10]'
+                cin.ignore("diagonaln");
+                           ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+../Main.cpp:119:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+20:47:12 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:14: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [10]'
+                cin.ignore("diagonaln");
+                           ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+../Main.cpp:119:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+20:47:24 **** Clean-only build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+rm -rf AlfabetosCadenasLenguajes.exe Main.o Main.d 
+20:47:36 **** Rebuild of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:14: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [10]'
+                cin.ignore("diagonaln");
+                           ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+../Main.cpp:119:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+20:48:02 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:14: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [10]'
+                cin.ignore("diagonaln");
+                           ^~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+../Main.cpp:119:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+21:38:19 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:2: error: use of undeclared identifier 'ignore'
+        ignore(cin,"\n");
+        ^
+../Main.cpp:121:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+21:38:26 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:89:2: error: use of undeclared identifier 'ignore'
+        ignore(cin,"\n");
+        ^
+../Main.cpp:121:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+2 errors generated.
+21:38:39 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:121:26: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        cout<<"No pertenece"<<end
+                                              ^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1611:1: note: possible target for call
+end(_Tp (&__array)[_Np])
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1760:1: note: possible target for call
+end(_Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1768:1: note: possible target for call
+end(const _Cp& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:220:20: note: candidate function not viable: no overload of 'end' matching 'const void *' for 1st argument
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:196:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:200:20: note: candidate function not viable: no overload of 'end' matching 'basic_ios<char_type, traits_type> &(*)(basic_ios<char_type, traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:205:20: note: candidate function not viable: no overload of 'end' matching 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:208:20: note: candidate function not viable: no overload of 'end' matching 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:209:20: note: candidate function not viable: no overload of 'end' matching 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:210:20: note: candidate function not viable: no overload of 'end' matching 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:211:20: note: candidate function not viable: no overload of 'end' matching 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:212:20: note: candidate function not viable: no overload of 'end' matching 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:213:20: note: candidate function not viable: no overload of 'end' matching 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:214:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:215:20: note: candidate function not viable: no overload of 'end' matching 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:216:20: note: candidate function not viable: no overload of 'end' matching 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:217:20: note: candidate function not viable: no overload of 'end' matching 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:218:20: note: candidate function not viable: no overload of 'end' matching 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:219:20: note: candidate function not viable: no overload of 'end' matching 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:221:20: note: candidate function not viable: no overload of 'end' matching 'basic_streambuf<char_type, traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:750:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:757:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:790:1: note: candidate function not viable: no overload of 'end' matching 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:797:1: note: candidate function not viable: no overload of 'end' matching 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:804:1: note: candidate function not viable: no overload of 'end' matching 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:811:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:818:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:864:1: note: candidate function not viable: no overload of 'end' matching 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:871:1: note: candidate function not viable: no overload of 'end' matching 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:879:1: note: candidate function not viable: no overload of 'end' matching 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1054:1: note: candidate function [with _CharT = char, _Traits = std::__1::char_traits<char>] not viable: no overload of 'end' matching 'const basic_string_view<char, std::__1::char_traits<char> >' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1063:1: note: candidate function not viable: no overload of 'end' matching 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1046:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1071:1: note: candidate template ignored: couldn't infer template argument '_Yp'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+1 error generated.
+21:39:34 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
 Info: Nothing to build for AlfabetosCadenasLenguajes
-12:53:47 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:39:52 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-clang: error: no such file or directory: '../Main.cpp'
-clang: error: no input files
-12:53:54 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+../Main.cpp:89:2: error: use of undeclared identifier 'ignore'
+        ignore(cin,"\n");
+        ^
+1 error generated.
+21:40:54 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-clang: error: no such file or directory: '../Main.cpp'
-clang: error: no input files
-12:53:57 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-clang: error: no such file or directory: '../Main.cpp'
-clang: error: no input files
-12:54:06 **** Clean-only build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-rm -rf Main.d Main.o AlfabetosCadenasLenguajes.exe 
-12:54:10 **** Rebuild of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-Info: Nothing to build for AlfabetosCadenasLenguajes
-Info: Nothing to build for AlfabetosCadenasLenguajes
-13:03:32 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+../Main.cpp:89:13: error: cannot initialize a parameter of type 'streamsize' (aka 'long') with an lvalue of type 'const char [2]'
+        cin.ignore("\n");
+                   ^~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:277:38: note: passing argument to parameter '__n' here
+    basic_istream& ignore(streamsize __n = 1, int_type __dlm = traits_type::eof());
+                                     ^
+1 error generated.
+21:45:17 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
 Info: Nothing to build for AlfabetosCadenasLenguajes
-Info: Nothing to build for AlfabetosCadenasLenguajes
-13:11:07 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:46:04 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-13:15:15 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:46:34 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-13:33:49 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:46:56 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-Info: Nothing to build for AlfabetosCadenasLenguajes
-13:41:07 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:47:20 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-13:42:58 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-13:57:38 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-Info: Nothing to build for AlfabetosCadenasLenguajes
-Info: Nothing to build for AlfabetosCadenasLenguajes
-11:30:28 **** Rebuild of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-11:31:07 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-Info: Nothing to build for AlfabetosCadenasLenguajes
-11:56:38 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+21:47:33 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
 Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
