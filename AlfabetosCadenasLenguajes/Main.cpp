@@ -34,20 +34,27 @@ using namespace std;
  * de ser así, pasamos a la siguiente parte de la palabra como una subcadena, comparando nuevamente con cada
  * lenguaje del conjunto, en caso de ser la última parte de la palabra se termina la función y devuelve el resiltado final.
  */
-bool buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, string w){
-	bool pertenece = false;
+int buscar(int principio, string * lenguaje, int * cardenalidad, int longitud, string w, int nivel){
+	int pertenece = nivel;
 	for(int i = 0; i < longitud; i++){
 			if(lenguaje[i] == w.substr(principio, cardenalidad[i])){
-				pertenece = true;
+				//cout<<lenguaje[i]<<"="<<w.substr(principio, cardenalidad[i])<<endl;
+				//cout<<"pertenece "<<pertenece<<" = nivel "<<nivel<<endl;
+				pertenece++;
 				if((unsigned int)(cardenalidad[i]+principio) == w.length()){
+					//cout<<"2pertenece "<<pertenece<<" = nivel "<<nivel<<endl;
 					return pertenece;
 				}
-				if(buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w)){
-					return buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w);
+				if(buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w, pertenece) > -1){
+					//cout<<"in"<<endl;
+					return buscar(cardenalidad[i]+principio, lenguaje, cardenalidad, longitud, w, pertenece);
+				}else{
+					pertenece--;
 				}
 			}
 			else if(i == (longitud - 1)){
-				return false;
+				//cout<<i<<"="<<longitud-1<<endl;
+				return -1;
 			}
 		}
 
@@ -112,13 +119,13 @@ int main(){
 			posicion++;
 		}
 		int longitud = posicion;
-
-		//Llamada a la función recursiva
-		bool pertenece = buscar(0, lenguaje, cardenalidad, longitud, w);
-
+		int nivel = 0;
+		//Llamada a la funci�n recursiva
+		int pertenece = buscar(0, lenguaje, cardenalidad, longitud, w, nivel);
+		//cout<<pertenece<<endl;
 		//analiza respuesta.
-		if(pertenece)
-			cout<<"Pertenece"<<endl;
+		if(pertenece > -1)
+			cout<<"w pertenece a "<<"L"<<pertenece<<endl;
 		else
 			cout<<"No pertenece"<<endl;
 		veces --;
