@@ -1027,3 +1027,29 @@ Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on t
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+22:41:05 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:12:10: fatal error: 'stdafx.h' file not found
+#include "stdafx.h"
+         ^~~~~~~~~~
+1 error generated.
+22:41:19 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+../Main.cpp:18:10: fatal error: 'Windows.h' file not found
+#include <Windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+22:41:36 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+22:42:02 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
+g++ -o AlfabetosCadenasLenguajes.exe Main.o 
