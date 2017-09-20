@@ -9,13 +9,13 @@
  *
  */
 
-#include "stdafx.h"
+//#include "stdafx.h"
 #include <stdio.h>
 #include <cstdlib>
 #include <string.h>
 #include <string>
 #include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 
 using namespace std;
 
@@ -74,7 +74,7 @@ int main() {
 
 	//obtener las entradas
 	cout << "Ingresa el alfabeto separado por espacios: " << endl << "Ejemplo 'a b c'" << endl;
-	//cout << "\u03A3:";
+	cout << "\u03A3:";
 	getline(cin, sigma);
 	bool flag;
 	do {
