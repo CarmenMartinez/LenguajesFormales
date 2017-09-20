@@ -3930,3 +3930,105 @@ Contains: The project description file (.project) for 'RemoteSystemsTempFiles' i
 !MESSAGE Errors occurred while refreshing resources with the local file system.
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2017-09-19 22:41:08.550
 !MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 2 2 2017-09-19 22:45:49.937
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-09-19 22:45:49.938
+!MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2017-09-20 10:53:48.718 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/carmenmartineznuno/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/carmenmartineznuno/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.043
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.044
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.045
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.045
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.046
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.046
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.046
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.047
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:15.047
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-20 10:54:15.977
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-09-20 10:54:18.333
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.launchbar.ui.controls/org.eclipse.launchbar.ui.controls.internal.LaunchBarControl
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:22:39.250
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:22:51.911
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:25:47.264
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:25:48.201
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:25:48.391
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:29:08.231
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:29:12.904
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:31:18.400
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-20 11:31:20.351
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-20 11:31:20.352
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:31:20.873
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:32:27.674
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:32:36.722
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:32:40.957
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:34:45.217
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:38:15.982
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:38:50.350
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:38:57.241
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2017-09-20 11:40:23.553
+!MESSAGE Build Artifact is missing in project 'AlfabetosCadenasLenguajes' configuration 'Default'

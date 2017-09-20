@@ -1,8 +1,1 @@
-22:42:02 **** Incremental Build of configuration Debug for project AlfabetosCadenasLenguajes ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
-g++ -o AlfabetosCadenasLenguajes.exe Main.o 
-
-22:42:03 Build Finished (took 1s.296ms)
-
+Info: Nothing to build for AlfabetosCadenasLenguajes

@@ -1053,3 +1053,20 @@ Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on t
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o ../Main.cpp 
 g++ -o AlfabetosCadenasLenguajes.exe Main.o 
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
+Info: Nothing to build for AlfabetosCadenasLenguajes
