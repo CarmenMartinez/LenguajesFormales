@@ -7,4 +7,16 @@
 		<item value="398" key="DIALOG_X_ORIGIN"/>
 		<item value="173" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Mariana\Documents\ITESO\5to Semestre\LenguajesFormalesP1\Práctica 1"/>
+			<item value="C:\Users\Mariana\Documents\ITESO\5to Semestre\LenguajesFormalesP1\Práctica 2"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
 </section>
