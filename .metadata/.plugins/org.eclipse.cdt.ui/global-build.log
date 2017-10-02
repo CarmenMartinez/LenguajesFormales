@@ -1,1 +1,329 @@
 Info: Nothing to build for Practica2_Automatas
+23:14:23 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+clang: error: no such file or directory: '../main.cpp'
+clang: error: no input files
+23:14:40 **** Rebuild of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:50:18: error: no matching conversion for C-style cast from 'void *' to 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >')
+                        table[i][x] = (string)malloc(sizeof(string));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:756:40: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const allocator_type' (aka 'const std::__1::allocator<char>') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY explicit basic_string(const allocator_type& __a)
+                                       ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:763:5: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const std::__1::basic_string<char>' for 1st argument
+    basic_string(const basic_string& __str);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:778:31: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const value_type *' (aka 'const char *') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY basic_string(const value_type* __s);
+                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:799:5: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to '__self_view' (aka 'basic_string_view<char, std::__1::char_traits<char> >') for 1st argument
+    basic_string(__self_view __sv);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:795:9: note: candidate constructor template not viable: requires at least 3 arguments, but 1 was provided
+        basic_string(const _Tp& __t, size_type __pos, size_type __n, 
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:804:9: note: candidate constructor template not viable: requires 2 arguments, but 1 was provided
+        basic_string(_InputIterator __first, _InputIterator __last);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:807:9: note: candidate constructor template not viable: requires 3 arguments, but 1 was provided
+        basic_string(_InputIterator __first, _InputIterator __last, const allocator_type& __a);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:753:31: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+    _LIBCPP_INLINE_VISIBILITY basic_string()
+                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:764:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const basic_string& __str, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:780:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const value_type* __s, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:782:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const value_type* __s, size_type __n);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:786:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(size_type __n, value_type __c);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:801:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(__self_view __sv, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:784:5: note: candidate constructor not viable: requires 3 arguments, but 1 was provided
+    basic_string(const value_type* __s, size_type __n, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:788:5: note: candidate constructor not viable: requires 3 arguments, but 1 was provided
+    basic_string(size_type __n, value_type __c, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:792:5: note: candidate constructor not viable: requires at least 2 arguments, but 1 was provided
+    basic_string(const basic_string& __str, size_type __pos,
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:789:5: note: candidate constructor not viable: requires at least 3 arguments, but 1 was provided
+    basic_string(const basic_string& __str, size_type __pos, size_type __n,
+    ^
+1 error generated.
+23:15:26 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:50:18: error: no matching conversion for C-style cast from 'void *' to 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >')
+                        table[i][x] = (string) malloc(1 * sizeof(string));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:756:40: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const allocator_type' (aka 'const std::__1::allocator<char>') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY explicit basic_string(const allocator_type& __a)
+                                       ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:763:5: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const std::__1::basic_string<char>' for 1st argument
+    basic_string(const basic_string& __str);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:778:31: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'const value_type *' (aka 'const char *') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY basic_string(const value_type* __s);
+                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:799:5: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to '__self_view' (aka 'basic_string_view<char, std::__1::char_traits<char> >') for 1st argument
+    basic_string(__self_view __sv);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:795:9: note: candidate constructor template not viable: requires at least 3 arguments, but 1 was provided
+        basic_string(const _Tp& __t, size_type __pos, size_type __n, 
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:804:9: note: candidate constructor template not viable: requires 2 arguments, but 1 was provided
+        basic_string(_InputIterator __first, _InputIterator __last);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:807:9: note: candidate constructor template not viable: requires 3 arguments, but 1 was provided
+        basic_string(_InputIterator __first, _InputIterator __last, const allocator_type& __a);
+        ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:753:31: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+    _LIBCPP_INLINE_VISIBILITY basic_string()
+                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:764:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const basic_string& __str, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:780:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const value_type* __s, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:782:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(const value_type* __s, size_type __n);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:786:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(size_type __n, value_type __c);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:801:5: note: candidate constructor not viable: requires 2 arguments, but 1 was provided
+    basic_string(__self_view __sv, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:784:5: note: candidate constructor not viable: requires 3 arguments, but 1 was provided
+    basic_string(const value_type* __s, size_type __n, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:788:5: note: candidate constructor not viable: requires 3 arguments, but 1 was provided
+    basic_string(size_type __n, value_type __c, const allocator_type& __a);
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:792:5: note: candidate constructor not viable: requires at least 2 arguments, but 1 was provided
+    basic_string(const basic_string& __str, size_type __pos,
+    ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:789:5: note: candidate constructor not viable: requires at least 3 arguments, but 1 was provided
+    basic_string(const basic_string& __str, size_type __pos, size_type __n,
+    ^
+1 error generated.
+23:15:41 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:50:38: error: invalid operands to binary expression ('string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') and 'unsigned long')
+                        table[i][x] = (string) malloc(aux * sizeof(string));
+                                                      ~~~ ^ ~~~~~~~~~~~~~~
+1 error generated.
+23:15:48 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+23:19:11 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:22:21 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:24:58 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:25:56 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:28:42 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:29:40 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:30:07 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:50:21: error: no viable overloaded '='
+                        cin>>table[i][x] = aux;
+                        ~~~~~~~~~~~~~~~~ ^ ~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:1682:64: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'const std::__1::basic_istream<char>' for 1st argument
+_LIBCPP_EXTERN_TEMPLATE(class _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS basic_istream<char>)
+                                                               ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__config:811:54: note: expanded from macro '_LIBCPP_EXTERN_TEMPLATE'
+#define _LIBCPP_EXTERN_TEMPLATE(...) extern template __VA_ARGS__;
+                                                     ^
+1 error generated.
+23:30:29 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:37:52 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:92:2: error: no matching function for call to 'printTable'
+        printTable(table,sigma,states);
+        ^~~~~~~~~~
+../main.cpp:41:6: note: candidate function not viable: no known conversion from 'string **' (aka 'basic_string<char, char_traits<char>, allocator<char> > **') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *') for 1st argument; dereference the argument with *
+void printTable(string* out, string* sigma, string* states){
+     ^
+1 error generated.
+23:38:29 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+23:39:56 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:40:25 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+23:41:30 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:42:08 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+23:42:41 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+18:55:23 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:86:15: error: use of undeclared identifier 'transitionTable'; did you mean 'transitionstable'?
+                printvalues(transitionTable[r]);
+                            ^~~~~~~~~~~~~~~
+                            transitionstable
+../main.cpp:75:9: note: 'transitionstable' declared here
+        string transitionstable[states_size][sigma_size];
+               ^
+1 error generated.
+18:55:43 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:86:15: error: use of undeclared identifier 'transitionTable'; did you mean 'transitionstable'?
+                printvalues(transitionTable[r]);
+                            ^~~~~~~~~~~~~~~
+                            transitionstable
+../main.cpp:75:9: note: 'transitionstable' declared here
+        string transitionstable[states_size][sigma_size];
+               ^
+1 error generated.
+18:55:57 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+18:59:39 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+19:02:54 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:80:3: error: no matching function for call to 'printTable'
+                printTable(transitionstable, states_size, sigma_size);
+                ^~~~~~~~~~
+../main.cpp:41:6: note: candidate function not viable: no known conversion from 'string [states_size][sigma_size]' to 'string **' (aka 'basic_string<char, char_traits<char>, allocator<char> > **') for 1st argument
+void printTable(string** table,int states_size, int sigma_size){
+     ^
+1 error generated.
+19:03:07 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:80:3: error: no matching function for call to 'printTable'
+                printTable(&transitionstable, states_size, sigma_size);
+                ^~~~~~~~~~
+../main.cpp:41:6: note: candidate function not viable: no known conversion from 'string (*)[states_size][sigma_size]' to 'string **' (aka 'basic_string<char, char_traits<char>, allocator<char> > **') for 1st argument
+void printTable(string** table,int states_size, int sigma_size){
+     ^
+1 error generated.
+19:03:18 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+../main.cpp:80:3: error: no matching function for call to 'printTable'
+                printTable(transitionstable, states_size, sigma_size);
+                ^~~~~~~~~~
+../main.cpp:41:6: note: candidate function not viable: no known conversion from 'string [states_size][sigma_size]' to 'string **' (aka 'basic_string<char, char_traits<char>, allocator<char> > **') for 1st argument
+void printTable(string** table,int states_size, int sigma_size){
+     ^
+1 error generated.
+19:05:24 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+19:06:09 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+Info: Nothing to build for Practica2_Automatas
+19:08:57 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+19:10:12 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 
+19:11:17 **** Incremental Build of configuration Debug for project Practica2_Automatas ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ../main.cpp 
+g++ -o Practica2_Automatas.exe .metadata/.plugins/org.eclipse.cdt.make.core/specs.o .metadata/.plugins/org.eclipse.cdt.make.core/specs.o main.o 

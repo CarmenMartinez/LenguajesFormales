@@ -38,46 +38,49 @@ void printvalues( string * out){
 	return;
 }
 
-void getTransitionsTable(string * sigma, string * states, string ** table){
-	//string[][] transitionstable = new string[(*states).size()][(*sigma).size()];
-	//string transitionstable[(*states).size()][(*sigma).size()];
-	for(int i = 0; i <= (signed)(*states).size(); i++){
-		for(int x = 0; x <= (signed)(*sigma).size(); x++){
-			cout<<" ("<<states[i]<<","<<sigma[x]<<") = ";
-			cin>>table[i][x];
-		}
-		//cout<<endl;
-	}
-	return;
-	//return transitionstable;
-}
+
 
 int main(){
 	string sigma_in, states_in, finalstates_in;
 	string * sigma;
 	string * states;
-	string * finalstates;
+	string * final_states;
 
+	cout<<"Ingresa sigma separado por comas:"<<endl<<"Por ejemplo: a,b,c"<<endl;
 	getline(cin, sigma_in);
+	fflush(stdin);
 	sigma = separate(sigma_in);
+	cout<<"Ingresa los estados del AFD separados por comas: ";
 	getline(cin, states_in);
 	states = separate(states_in);
+	fflush(stdin);
+	cout<<"Ingresa el estado final: ";
 	getline(cin, finalstates_in);
-	finalstates = separate(finalstates_in);
+	final_states = separate(finalstates_in);
+	int states_size = (*states).size();
+	int sigma_size = (*sigma).size();
+	string transitionstable[states_size][sigma_size];
+
+	for(int r = 0; r <= states_size; r++){
+		for(int c = 0; c <= sigma_size; c++){
+			cout<<" ("<<states[r]<<" "<<r<<","<<sigma[c]<<" "<<c<<") = ";
+			cin>>transitionstable[r][c];
+		}
+	}
+
+	for(int r = 0; r <= states_size; r ++){
+		for(int c = 0; c <= sigma_size; c ++){
+			cout<<r<<" - "<<c;
+			cout<<transitionstable[r][c]<<" ";
+		}
+		cout<<endl;
+	}
 
 	/*printvalues(sigma);
 	printvalues(states);
 	printvalues(finalstates);*/
 
-	string **table;
-	table = (string**)malloc((*states).size() * sizeof(string*));
-	for(int i = 0; i<= (signed)(*states).size(); i++){
-		table[i] = (string*)malloc((*sigma).size() * sizeof(string));
-	}
-	getTransitionsTable(sigma, states, table);
-	for(int i = 0; i <= (signed)(*states).size(); i++){
-		printvalues(table[i]);
-	}
+
 
 	return 0;
 }
