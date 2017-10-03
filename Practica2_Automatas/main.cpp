@@ -60,11 +60,13 @@ int main(){
 	int states_size = (*states).size();
 	int sigma_size = (*sigma).size();
 	string transitionstable[states_size][sigma_size];
-
+	int counter;
+	string w;
 	for(int r = 0; r <= states_size; r++){
 		for(int c = 0; c <= sigma_size; c++){
 			cout<<" ("<<states[r]<<" "<<r<<","<<sigma[c]<<" "<<c<<") = ";
-			cin>>transitionstable[r][c];
+			fflush(stdin);
+			getline(cin,transitionstable[r][c]);
 		}
 	}
 
@@ -75,7 +77,17 @@ int main(){
 		}
 		cout<<endl;
 	}
+	cout<<"Ingresa la cantidad de palabras a leer:";
+	cin>>counter;
+	cin.ignore();
+	fflush(stdin);
 
+	do{
+		cout << "Ingresa la palabra:" << endl << "w = ";
+		getline(cin, w);
+
+
+	}while(counter > 0);
 	/*printvalues(sigma);
 	printvalues(states);
 	printvalues(finalstates);*/
