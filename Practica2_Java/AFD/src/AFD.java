@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class AFD {
-	private String sigmaIn, statesIn, finalStateIn;
+	private String sigmaIn, statesIn, finalStatesIn;
 	private String[] sigma, states, finalStates;
 	private static String[][] transitionTable; 
 	private  BufferedReader reader;
@@ -24,8 +24,8 @@ public class AFD {
     }
     
     public void setFinalState() throws IOException {
-    		finalStateIn  = reader.readLine();
-    		finalStates = separate(finalStateIn);
+    		finalStatesIn  = reader.readLine();
+    		finalStates = separate(finalStatesIn);
     }
 	
 	public void setTransitionTable() throws IOException {
