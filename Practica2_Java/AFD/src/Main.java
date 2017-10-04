@@ -7,13 +7,13 @@ public class Main {
 		
 		 AFD afd = new AFD();
 		 try {
-			 System.out.println("Ingresa Sigma: Ejemplo a,b,c");
+			 System.out.println("Ingresa Sigma: Ejemplo a,b,c ó 0,1");
 			 afd.setSigma();
-			 System.out.println("Ingresa los estados: Ejemplo q1,q2,q3");
+			 System.out.println("Ingresa los estados: Ejemplo q0,q1,q2");
 			 afd.setStates();
-			 System.out.println("Ingresa el estado final");
+			 System.out.println("Ingresa los estados finales: Ejemplo q2,q3");
 			 afd.setFinalState();
-			 System.out.println("Tabla de transiciones");
+			 System.out.println("*Tabla de transiciones*");
 			 afd.setTransitionTable();
 			 int counter;
 			 System.out.println("Ingresa la cantidad de palabras: ");
@@ -24,10 +24,10 @@ public class Main {
 				 word = reader.readLine();
 				 boolean result = afd.search(word);
 				 if(result) {
-					 System.out.println("Aceptada");
+					 System.out.println("La palabra es aceptada por el autómata");
 				 }
 				 else {
-					 System.out.println("Rechazada");
+					 System.out.println("La palabra es rechazada por el autómata");
 				 }
 				 counter --;
 			}while(counter > 0);
