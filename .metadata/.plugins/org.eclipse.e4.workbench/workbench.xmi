@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Main.cpp&quot; tooltip=&quot;AlfabetosCadenasLenguajes/Main.cpp&quot;>&#xA;&lt;persistable path=&quot;/AlfabetosCadenasLenguajes/Main.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.cpp&quot; tooltip=&quot;Practica2_Automatas/main.cpp&quot;>&#xA;&lt;persistable path=&quot;/Practica2_Automatas/main.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Main.cpp&quot; tooltip=&quot;Practica2/Main.cpp&quot;>&#xA;&lt;persistable path=&quot;/Practica2/Main.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;AlfabetosCadenasLenguajes.exe&quot; tooltip=&quot;AlfabetosCadenasLenguajes/Debug/AlfabetosCadenasLenguajes.exe&quot;>&#xA;&lt;persistable path=&quot;/AlfabetosCadenasLenguajes/Debug/AlfabetosCadenasLenguajes.exe&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_2LENsZikEeeJ5KfSPLNoFw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_2LENspikEeeJ5KfSPLNoFw" label="%trimmedwindow.label.eclipseSDK" x="156" y="156" width="1280" height="800">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_2LENsZikEeeJ5KfSPLNoFw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_2LENspikEeeJ5KfSPLNoFw" label="%trimmedwindow.label.eclipseSDK" x="156" y="156" width="1280" height="709">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,6 +11,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1504803638473"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_2LENspikEeeJ5KfSPLNoFw" selectedElement="_2LENs5ikEeeJ5KfSPLNoFw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_2LENs5ikEeeJ5KfSPLNoFw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_2LEN05ikEeeJ5KfSPLNoFw">
         <children xsi:type="advanced:Perspective" xmi:id="_2LENtJikEeeJ5KfSPLNoFw" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_2LENtZikEeeJ5KfSPLNoFw" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -263,7 +264,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_ETgckKRtEeepnboCe2yI5g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.cpp&quot; partName=&quot;main.cpp&quot; title=&quot;main.cpp&quot; tooltip=&quot;Practica2_Automatas/main.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Practica2_Automatas/main.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1910&quot; selectionTopPixel=&quot;1037&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.cpp&quot; partName=&quot;main.cpp&quot; title=&quot;main.cpp&quot; tooltip=&quot;Practica2_Automatas/main.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Practica2_Automatas/main.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1910&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>removeOnHide</tags>
@@ -469,7 +470,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2LE1xpikEeeJ5KfSPLNoFw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_GpLjEKhVEeeiHYD7SmFtgA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_2LKVx5ikEeeJ5KfSPLNoFw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_xkBaUL5lEee7Eo6zmPnikw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_2LKVx5ikEeeJ5KfSPLNoFw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2LE125ikEeeJ5KfSPLNoFw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -505,7 +506,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2LE2R5ikEeeJ5KfSPLNoFw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_GpP0gKhVEeeiHYD7SmFtgA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_2LKVe5ikEeeJ5KfSPLNoFw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_xkFrwL5lEee7Eo6zmPnikw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_2LKVe5ikEeeJ5KfSPLNoFw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2LE2UpikEeeJ5KfSPLNoFw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -873,7 +874,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_J1EpNaWVEeer163bhQGhQQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ContentOutline"/>
     </bindings>
-    <bindings xmi:id="_GL2G0ahVEeeiHYD7SmFtgA" keySequence="COMMAND+CTRL+F" command="_2LLjr5ikEeeJ5KfSPLNoFw"/>
+    <bindings xmi:id="_xEPHAb5lEee7Eo6zmPnikw" keySequence="COMMAND+CTRL+F" command="_2LLjr5ikEeeJ5KfSPLNoFw"/>
   </bindingTables>
   <bindingTables xmi:id="_2LFdBJikEeeJ5KfSPLNoFw" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_2LGD65ikEeeJ5KfSPLNoFw">
     <bindings xmi:id="_6efwkJ1sEeemF_AwyyBTeg" keySequence="ALT+C" command="_2LKU75ikEeeJ5KfSPLNoFw"/>
@@ -1185,7 +1186,7 @@
     <bindings xmi:id="_J1DbEaWVEeer163bhQGhQQ" keySequence="ESC CTRL+F" command="_2LLi-5ikEeeJ5KfSPLNoFw"/>
   </bindingTables>
   <bindingTables xmi:id="_2LGDqZikEeeJ5KfSPLNoFw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_2LGEIZikEeeJ5KfSPLNoFw">
-    <bindings xmi:id="_GL3U8KhVEeeiHYD7SmFtgA" keySequence="M1+W" command="_2LLjsZikEeeJ5KfSPLNoFw"/>
+    <bindings xmi:id="_xEQVIL5lEee7Eo6zmPnikw" keySequence="M1+W" command="_2LLjsZikEeeJ5KfSPLNoFw"/>
   </bindingTables>
   <bindingTables xmi:id="_2LGDq5ikEeeJ5KfSPLNoFw" bindingContext="_2LGEWpikEeeJ5KfSPLNoFw"/>
   <bindingTables xmi:id="_2LGDrJikEeeJ5KfSPLNoFw" bindingContext="_2LGEW5ikEeeJ5KfSPLNoFw"/>
