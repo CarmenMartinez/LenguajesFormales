@@ -1,8 +1,9 @@
 # Lenguajes Formales
 Repositorio para las prácticas de la clase Lenguajes Formales - OTOÑO 2017 
-*Programadores*
-Carmen Martínez 
-Julián López
+***************
+*Programadores:*
+Carmen Martínez, 
+Julián López y
 Mariana Sierra
 
 ## Práctica 1
